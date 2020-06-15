@@ -21,6 +21,18 @@ const BoxPhrase = styled.div`
       align-items: center;
       flex-direction: column;
       justify-content: space-around;
+
+      @media(max-width: 1169px) {
+        width: 38vw;
+      }
+
+      @media(max-width: 936px) {
+        width: 48vw;
+      }
+
+      @media(max-width: 832px) {
+        width: 52vw;
+      }
 `;
 
 const Title = styled.h1`
@@ -40,6 +52,19 @@ const BoxButtons = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-around;
+
+      @media(max-width: 936px) {
+        width: 34vw;
+      }
+
+      @media(max-width: 832px) {
+        width: 38vw;
+      }
+
+      @media(max-width: 664px) {
+        flex-direction: column;
+        height: 10vh;
+      }
 `;
 
 const Buttons = styled.button`
@@ -52,6 +77,10 @@ const Buttons = styled.button`
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @media(max-width: 936px) {
+        width: 14vw;
+      }
 `;
 
 const LogoWats = styled.img`
