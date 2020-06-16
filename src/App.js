@@ -22,28 +22,41 @@ const BoxPhrase = styled.div`
       flex-direction: column;
       justify-content: space-around;
 
-      @media(max-width: 1169px) {
-        width: 38vw;
+      @media(max-width: 1024px) {
+        width: 44vw;
       }
 
-      @media(max-width: 936px) {
-        width: 48vw;
-      }
-
-      @media(max-width: 832px) {
-        width: 52vw;
+      @media(max-width: 425px) {
+        width: 68vw;
+        height: 40vh;
       }
 `;
 
 const Title = styled.h1`
       letter-spacing: 0.01em;
       color: #cf5a0c;
+
+      @media(max-width: 425px) {
+        font-size: 1.8rem;
+      }
+
+      @media(max-width: 320px) {
+        font-size: 1.6rem;
+      }
 `;
 
 const Text = styled.p`
       color: #252525;
       font-size: 1.2rem;
       letter-spacing: 0.02rem;
+
+      @media(max-width: 768px) {
+        font-size: 1rem;
+      }
+
+      @media(max-width: 425px) {
+        font-size: 0.9rem;
+      }
 `;
 
 const BoxButtons = styled.div`
@@ -53,17 +66,9 @@ const BoxButtons = styled.div`
       align-items: center;
       justify-content: space-around;
 
-      @media(max-width: 936px) {
-        width: 34vw;
-      }
-
-      @media(max-width: 832px) {
-        width: 38vw;
-      }
-
-      @media(max-width: 664px) {
+      @media(max-width: 425px) {
         flex-direction: column;
-        height: 10vh;
+        height: 12vh;
       }
 `;
 
@@ -78,8 +83,16 @@ const Buttons = styled.button`
       align-items: center;
       justify-content: center;
 
-      @media(max-width: 936px) {
-        width: 14vw;
+      @media(max-width: 768px) {
+        width: 13vw;
+      }
+
+      @media(max-width: 425px) {
+        width: 25vw;
+      }
+
+      @media(max-width: 320px) {
+        width: 30vw;
       }
 `;
 
